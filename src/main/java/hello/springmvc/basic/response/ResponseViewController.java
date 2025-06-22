@@ -26,7 +26,7 @@ public class ResponseViewController {
     }
 
     //컨트롤러의 경로(매핑경로)와 뷰의 논리적 이름과 같고. 컨트롤러에서 아무것도 반환을 안하면(void) 자동으로 같은 이름의 뷰 return
-    //권장하지 않음
+    //권장하지 않음 //깃 테스트
     @RequestMapping("/response/hello")
     public void responseViewV3(Model model) {
 
